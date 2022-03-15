@@ -126,7 +126,7 @@
     
     h3 Tipos de Hojas de vida
 
-    p Al momento de redactar o hacer una hoja de vida, se debe tener en cuenta el tipo de currículum, estos se diferencian en la forma en que esté organizada la información, aquí se encuentran tres de ellos:
+    p.mb-5 Al momento de redactar o hacer una hoja de vida, se debe tener en cuenta el tipo de currículum, estos se diferencian en la forma en que esté organizada la información, aquí se encuentran tres de ellos:
 
     .row.mb-5
       .col-sm-6.col-xl-4.mb-4.mb-xl-0
@@ -138,7 +138,7 @@
                 img.img250(src='@/assets/curso/tema1/t1-3.svg', alt='imagen 1-2')
             .tarjeta-flip__contenido.bgr_3.p-4.p-xl-5
               h3.text-center El currículum cronológico
-              p.text-center.mt-4 Este organiza la información de manera gradual, empezando por los logros y los puestos de trabajo más recientes y por último los más antiguos. Este tipo de currículo permite que el reclutador pueda conocer la evolución y trayectoria laboral del candidato. Es importante resaltar que este tipo de currículo no sirve para personas que se acaban de graduar, que no tienen experiencia laboral, que cuentan con largos periodos de inactividad laboral o que no tienen experiencia en el sector.
+              p.text-center.mt-3 Este organiza la información de manera gradual, empezando por los logros y los puestos de trabajo más recientes y por último los más antiguos. Este tipo de currículo permite que el reclutador pueda conocer la evolución y trayectoria laboral del candidato. Es importante resaltar que este tipo de currículo no sirve para personas que se acaban de graduar, que no tienen experiencia laboral, que cuentan con largos periodos de inactividad laboral o que no tienen experiencia en el sector.
 
       .col-sm-6.col-xl-4.mb-4.mb-xl-0
         .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
@@ -149,7 +149,7 @@
                 img.img250(src='@/assets/curso/tema1/t1-4.svg', alt='imagen 1-2')
             .tarjeta-flip__contenido.bgr_3.p-4.p-xl-5
               h3.text-center El currículum funcional o temático
-              p.text-center.mt-3 Este tipo de currículo distribuye la información por temas; aquí se puede destacar las habilidades, competencias y logros conseguidos a lo largo de la carrera del candidato. Este tipo de currículo es recomendado para las personas que no tienen experiencia laboral, que quieren cambiar de sector profesional o que han estado mucho tiempo sin trabajar.
+              p.text-center.mt-5 Este tipo de currículo distribuye la información por temas; aquí se puede destacar las habilidades, competencias y logros conseguidos a lo largo de la carrera del candidato. Este tipo de currículo es recomendado para las personas que no tienen experiencia laboral, que quieren cambiar de sector profesional o que han estado mucho tiempo sin trabajar.
 
       .col-sm-6.col-xl-4.mb-4.mb-xl-0
         .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
@@ -160,7 +160,7 @@
                 img.img250(src='@/assets/curso/tema1/t1-5.svg', alt='imagen 1-2')
             .tarjeta-flip__contenido.bgr_3.p-4.p-xl-5
               h3.text-center El currículum combinado o mixto
-              p.text-center.mt-3 Es el currículum perfecto para toda clase de candidato, este permite plasmar la información laboral de acuerdo a las fortalezas del candidato. Por ejemplo, si el candidato tiene mucha experiencia podrá plasmarla de manera cronológica, y, por otra parte, si cuenta con otras series de habilidades, también podrá incluirlas en el currículo.
+              p.text-center.mt-5 Es el currículum perfecto para toda clase de candidato, este permite plasmar la información laboral de acuerdo a las fortalezas del candidato. Por ejemplo, si el candidato tiene mucha experiencia podrá plasmarla de manera cronológica, y, por otra parte, si cuenta con otras series de habilidades, también podrá incluirlas en el currículo.
 
     p.mb-5 En lo que respecta a lo anterior, se encuentran diferentes formatos de hojas de vida ya establecidos que permiten recopilar un gran número de datos e información del candidato, entre las más conocidas se encuentran:    
   
@@ -215,26 +215,26 @@
       .row
         .col-md-6.mb-4.mb-md-0.align-items-center
           p No escribir el título <em>"Currículum Vitae"</em> en la parte superior, esta información es redundante y es mejor encabezar el formato con el nombre del candidato en un tamaño más grande y los datos personales.
-        .col-md-6
+        .col-md-6(data-aos="fade-left")
           figure.justify-center
             img.img160(src='@/assets/curso/tema1/t1-9.svg', alt='img 1-9')
             
       .row
-        .col-md-6
+        .col-md-6(data-aos="fade-right")
           figure.justify-center
             img.img160(src='@/assets/curso/tema1/t1-10.svg', alt='img 1-10')
-        .col-md-6.mb-4.mb-md-0.align-items-center
+        .col-md-6.mb-4.mb-md-0
           p Se debe incluir una dirección de correo electrónico profesional. A veces se colocan direcciones poco profesionales como: florecita_rokera69@hotmail.co; es mejor un correo más formal como: pedro.perez@hotmail.com.
 
       .row
         .col-md-6.mb-4.mb-md-0.align-items-center
           p La información debe ser de forma clara, organizada y sintética; demasiada explicación aburre a quien te tiene que contratar.
-        .col-md-6
+        .col-md-6(data-aos="fade-left")
           figure.justify-center
             img.img160(src='@/assets/curso/tema1/t1-11.svg', alt='img 1-11') 
 
       .row
-        .col-md-6
+        .col-md-6(data-aos="fade-right")
           figure.justify-center
             img.img160(src='@/assets/curso/tema1/t1-12.svg', alt='img 1-12')
         .col-md-6.mb-4.mb-md-0.align-items-center
@@ -243,12 +243,12 @@
       .row
         .col-md-6.mb-4.mb-md-0.align-items-center
           p No escribir o hablar de remuneraciones, objetivos económicos o sueldos en el currículum. Después se darán los espacios para ese tema.
-        .col-md-6
+        .col-md-6(data-aos="fade-left")
           figure.justify-center
             img.img160(src='@/assets/curso/tema1/t1-13.svg', alt='img 1-13')
 
       .row
-        .col-md-6
+        .col-md-6(data-aos="fade-right")
           figure.justify-center
             img.img160(src='@/assets/curso/tema1/t1-14.svg', alt='img 1-14')
         .col-md-6.mb-4.mb-md-0.align-items-center
@@ -257,12 +257,12 @@
       .row
         .col-md-6.mb-4.mb-md-0.align-items-center
           p Usar palabras demasiado técnicas, pedantes o rebuscadas; es importante usar un vocabulario estándar sin caer en el lenguaje coloquial.
-        .col-md-6
+        .col-md-6(data-aos="fade-left")
           figure.justify-center
             img.img160(src='@/assets/curso/tema1/t1-15.svg', alt='img 1-15')
             
       .row
-        .col-md-6
+        .col-md-6(data-aos="fade-right")
           figure.justify-center
             img.img130(src='@/assets/curso/tema1/t1-16.svg', alt='img 1-16')
         .col-md-6.mb-4.mb-md-0.align-items-center
@@ -271,12 +271,12 @@
       .row
         .col-md-6.mb-4.mb-md-0.align-items-center
           p Dejar demasiados espacios en blanco en tu currículum. 
-        .col-md-6
+        .col-md-6(data-aos="fade-left")
           figure.justify-center
             img.img160(src='@/assets/curso/tema1/t1-17.svg', alt='img 1-17') 
 
       .row
-        .col-md-6
+        .col-md-6(data-aos="fade-right")
           figure.justify-center
             img.img160(src='@/assets/curso/tema1/t1-18.svg', alt='img 1-18')
         .col-md-6.mb-4.mb-md-0.align-items-center
@@ -284,13 +284,13 @@
       
       .row
         .col-md-6.mb-4.mb-md-0.align-items-center
-          p Incluir tus hobbies y aficiones salvo que éstas tengan una relación muy directa con el puesto de trabajo.
-        .col-md-6
+          p Incluir tus <em>hobbies</em> y aficiones salvo que éstas tengan una relación muy directa con el puesto de trabajo.
+        .col-md-6(data-aos="fade-left")
           figure.justify-center
             img.img160(src='@/assets/curso/tema1/t1-19.svg', alt='img 1-19')
 
       .row
-        .col-md-6
+        .col-md-6(data-aos="fade-right")
           figure.justify-center
             img.img160(src='@/assets/curso/tema1/t1-20.svg', alt='img 1-20')
         .col-md-6.mb-4.mb-md-0.align-items-center

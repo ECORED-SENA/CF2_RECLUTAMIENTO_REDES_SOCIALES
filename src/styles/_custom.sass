@@ -7,8 +7,12 @@
   max-width: 160px !important
 .img250
   max-width: 250px !important
+.img300
+  max-width: 300px !important
 .img350
   max-width: 350px !important
+.img400
+  max-width: 400px !important
 .img450
   max-width: 450px !important
 .img600
@@ -19,12 +23,13 @@
 .justify-center
   display: flex
   flex-wrap: wrap
+  align-items: normal
   justify-content: center
   flex-direction: row
 .justify-star
   display: flex
   flex-wrap: wrap
-  align-items: normal
+  align-items: center
   justify-content: flex-start
   flex-direction: row
 .justify-end
@@ -35,12 +40,19 @@
   flex-direction: row
 
 
-
   //alinear y justificar//
 .align-items-center
   display: flex
   align-items: center !important
   flex-direction: row
+
+//colores
+.colr1
+  color: #FF7D00
+
+//tamaño
+.tmn
+  height: 100% !important
 
 //background de fondo//
 .bgr
@@ -53,6 +65,58 @@
     height: 100%
   &_3
     background-color: #F9C852 !important
+  &_4
+    background-color: #f1f8f8!important
+  &_5
+    background-image: url('../assets/curso/tema3/t3-2.svg')
+    background-repeat: no-repeat
+    background-size: contain
+    background-position-y: bottom
+    
+  &_6
+    background: rgb(244,252,253);
+    background: linear-gradient(180deg, rgba(244,252,253,1) 0%, rgba(255,255,255,1) 100%);
+    padding-top: 100px !important
+    margin-right: auto
+    margin-left: auto
+    border-radius: 20px
+    @media ( min-width: 1200px)
+      max-width: 1140px
+  &_7  
+    position: absolute
+    top: -75px
+  &_8
+    background-color: #15616D
+  &_9
+    background-color: #F9E1A6
+  &_10
+    background-color: #0AB1CB
+    height: 100%
+  &_11
+    background-color: #fff
+  &_12
+    background-image: url('../assets/curso/tema5/t5-11.svg')
+    background-repeat: no-repeat
+    background-size: contain
+    background-position-y: bottom
+    background-color: #8BDAE6
+  &_13
+    background-color: #FF7D00
+    height: 100%
+  &_14
+    background-color: #8BDAE6
+  &_15
+    background: rgb(251,246,239);
+    background: linear-gradient(180deg, rgba(251,246,239,1) 0%, rgba(255,255,255,1) 100%);
+  &_16
+    background-image: url('../assets/curso/tema6/t6-10.svg')
+    background-repeat: no-repeat
+    background-size: contain
+    background-position-y: bottom
+    background-color: #DFE6E3 !important
+  
+    
+  
 
 
 //imagen sobre fondo//
@@ -61,7 +125,26 @@
   width: 30px
   height: 60px
   top: -7%
-  right: 3%  
+  right: 3% 
+.circulo
+  position: absolute
+  width: 30px
+  height: 60px
+  bottom: 2%
+  right: 5%
+.puntos
+  position: absolute
+  width: 30px
+  height: 30px
+  top: 5px
+  right: 5px
+  &_1
+    position: absolute
+    width: 30px
+    height: 30px
+    top: 5%
+    right: 10%
+
 
 //sobreescribir clases//
 .cajon.color-acento-contenido:before
@@ -70,3 +153,28 @@
   background-color: #D4ECF0 !important
 .tabs-b.color-acento-contenido .tabs-b__tab--active
   background-color: #FDF9F3 !important
+.text-end
+  text-align: left !important
+.tarjeta
+  border-radius: 35px !important
+.bloque-texto-a.color-acento-contenido
+  background-color: #0AB1CB !important
+.bloque-texto-a.color-acento-contenido:before
+  background-color: #E1DEDA !important
+.bloque-texto-a:before
+  left: 56% !important
+.tabla-b th
+  width: 50% !important
+.linea-tiempo-d.color-primario .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
+  background-color: #8BDAE6 !important
+.imgcurv
+  size:  contain 
+  position: bottom 
+.tarjeta--gris
+  background-image: url('../assets/curso/tema5/t5-11.svg')
+  background-repeat: no-repeat
+  background-size: contain
+  background-position-y: bottom
+  background-color: #8BDAE6 !important
+.tarjeta.color-primario *
+  color: #12263F !important
