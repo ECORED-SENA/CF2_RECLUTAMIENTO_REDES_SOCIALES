@@ -11,7 +11,7 @@
       p.mb-5 Los encargados del proceso de reclutamiento recibirán decenas de propuestas lo que convierte el ejercicio un poco más tedioso, este proceso de selección se puede hacer según la amplitud de la convocatoria y número de postulados, de ser un número pequeño la empresa lo puede hacer de forma manual o del área de recursos humanos, por otra parte; cuando estos son muy grandes, las empresas pueden realizar su análisis preliminarmente a través de software de reclutamiento y selección (ATS), algo clave que en los últimos años ha permitido simplificar los procesos.
 
     .row.mb-4
-      .col-12.col-md-4.col-lg-4.mb-2
+      .col-12.col-md-4.col-lg-4.mb-4
         figure.justify-center(data-aos="fade-right")
             img.img350(src='@/assets/curso/tema2/t2-1.svg', alt='img 2-1')
       .col-12.col-md-8.col-lg-8

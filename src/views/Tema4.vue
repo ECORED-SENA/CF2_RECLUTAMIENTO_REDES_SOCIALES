@@ -18,7 +18,7 @@
         iframe(width="560" height="315" src="https://www.youtube.com/embed/RgwBP11YBTQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     
     .row.mb-5
-      .col-12.col-md-8.col-lg-8.bgr_10.p-3.p-md-5.p-lg-5.mb-2
+      .col-12.col-md-8.col-lg-8.bgr_10.p-3.p-md-5.p-lg-5.mb-4
         div.bgr_11.p-3
           p.m-0 #[strong Parametrización:] aquí se asignan valores a los parámetros elegidos en la estructura de la hoja de vida con el objetivo de obtener un resultado al final del proceso. Este deberá ir asociado a los requerimientos o criterios de la vacante. A continuación, se encuentra un ejemplo sobre los criterios de evaluación de la hoja de vida para un cargo de docente universitario: 
       .col-12.col-md-4.col-lg-4

@@ -10,7 +10,7 @@
     .row.mb-5
       .col-12.col-md-4.col-lg-4.mb-3(data-aos="fade-right")
         p En este tema se abordarán las características, tipos y estructura de una hoja de vida, con el objetivo de identificar, estudiar y analizar las competencias de cada uno de los candidatos de acuerdo con el perfil del cargo y las políticas de la organización. El aprendiz deberá leer detenidamente y analizar cada uno de estos temas para lograr entender cada una de sus estructuras, elementos y funciones.
-      .col-12.col-md-4.col-lg-4.align-items-center.mb-3
+      .col-12.col-md-4.col-lg-4.align-items-center.mb-4
         figure(data-aos="zoom-in-up")
           img.img350(src='@/assets/curso/tema1/t1-1.svg', alt='imagen 1-1')
       .col-12.col-md-4.col-lg-4.mb-3(data-aos="fade-left")
@@ -32,7 +32,7 @@
     TabsB.color-acento-contenido.mb-5(data-aos="zoom-in-up")
       .py-4.py-md-5.text-black(titulo="Datos personales").bgr_1.p-2
         .row.justify-center
-          .col-md-6.mb-4.mb-md-0.p-5
+          .col-md-6.mb-md-0.p-5
             h4 Datos personales
             p Aquí se escribe la información personal y datos de ubicación. Se puede incluir una fotografía para identificarse.
             p En esta sección debe ir el nombre completo, el documento de identidad, la dirección y ciudad de residencia, teléfono fijo y celular, correo electrónico y, si se tiene, la dirección de una página web donde se vean trabajos realizados.
@@ -41,7 +41,7 @@
           .col-md-6.bgr.p-5.position-relative
             img.clip(src='@/assets/curso/tema1/t1-2.svg', alt='imagen 1-2')
             h4.text-black Su nombre completo 
-            p Numero de Cedula: XXXXXXXXXXX
+            p Número de Cedula: XXXXXXXXXXX
             p Fecha de nacimiento: Día, Mes, Año
             p Teléfono Móvil: Su número de contacto 
             p Dirección: Número - Calle o Avenida, Barrio 
@@ -52,7 +52,7 @@
             
       .py-4.py-md-5.text-black(titulo="Perfil profesional").bgr_1.p-2
         .row.justify-center
-          .col-md-6.mb-4.mb-md-0.p-5
+          .col-md-6.mb-md-0.p-5
             h4 Perfil profesional
             p Aquí, se describen de forma breve las habilidades, destrezas, especialidades, fortalezas y logros que se tienen sobre una ocupación. Por otra parte, se puede incluir también, campos de interés, enfoques que se tienen de la profesión y algunas características personales que lo destaquen. Este debe ser de un párrafo, entre 3 y 8 líneas, que resuma lo mencionado anteriormente.
 
@@ -63,7 +63,7 @@
             p Me considero una persona responsable creativa, con iniciativa y puntualidad, asumo con agrado los retos y metas que su organización me pudiera plantear; con buen manejo de relaciones interpersonales, facilidad para trabajar en equipo en condiciones de alta presión.
       .py-4.py-md-5.text-black(titulo="Formación académica (Educación)").bgr_1.p-2
         .row.justify-center
-          .col-md-6.mb-4.mb-md-0.p-3
+          .col-md-6.mb-md-0.p-5
             h4 Formación académica (Educación)
             p En este espacio se coloca la formación académica, esta sección puede ir dividida en dos partes:
             p Formación académica: títulos de colegio, técnicos, pregrado, posgrado, entre otros.
@@ -103,7 +103,7 @@
 
       .py-4.py-md-5.text-black(titulo="Experiencia laboral").bgr_1.p-2
         .row.justify-center
-          .col-md-6.mb-4.mb-md-0.p-5
+          .col-md-6.mb-md-0.p-5
             h4 Experiencia laboral
             p Aquí se debe explicar en qué lugares se ha trabajado, el cargo que se desempeñaba (la responsabilidad es opcional), el jefe inmediato y el tiempo de duración del trabajo. Es importante dejar un número de contacto y correo electrónico para que puedan verificar esos datos. 
 
@@ -111,18 +111,41 @@
           .col-md-6.bgr.p-5.position-relative
             img.clip(src='@/assets/curso/tema1/t1-2.svg', alt='imagen 1-2')
             h3 Experiencia laboral 
-            p Me considero una persona responsable creativa, con iniciativa y puntualidad, asumo con agrado los retos y metas que su organi
-      .py-4.py-md-5.text-black(titulo="Perfil profesional").bgr_1.p-2
-        .row.justify-center
-          .col-md-6.mb-4.mb-md-0.p-5
-            h4 Perfil profesional
-            p Aquí, se describen de forma breve las habilidades, destrezas, especialidades, fortalezas y logros que se tienen sobre una ocupación. Por otra parte, se puede incluir también, campos de interés, enfoques que se tienen de la profesión y algunas características personales que lo destaquen. Este debe ser de un párrafo, entre 3 y 8 líneas, que resuma lo mencionado anteriormente.
+            p Nombre de la empresa
+            p Cargo: cargo que desempeñó
+            p Funciones: funciones hechas en el cargo 
+            p Fecha: fecha de inicio de labores - fecha final de labores 
+            p Jefe inmediato: nombre del supervisor o jefe inmediato. 
+            p Teléfono: teléfono de la empresa  
+            p E-mail: correo electrónico de la empresa donde laboró 
+            br
+            p Servicio Nacional de Aprendizaje (SENA)
+            p Cargo: Economista 
+            p Funciones: Experto temático  
+            p Fecha: Cúcuta, 01/06/2021 – 30/11/2021 
+            p Jefe inmediato: Pepito Pérez - Coordinador de contenido temático. 
+            p Teléfono: 3001111111  
+            p E-mail: pepitoperez@sena.edu.co 
 
-            p A continuación, puedes ver un ejemplo de cómo hacer un perfil profesional en una hoja de vida:         
+
+      .py-4.py-md-5.text-black(titulo="Referencias").bgr_1.p-2
+        .row.justify-center
+          .col-md-6.mb-md-0.p-5
+            h4 Referencias
+            p Aquí se deben incluir los datos de personas que puedan verificar la información que aparece en la hoja de vida y dar un buen concepto sobre el candidato. Se recomienda colocar al menos tres (3) referencias, indicando nombres y apellidos completos, ocupación y teléfono de contacto. Recuerden que estas referencias pueden ser de tipo personal y familiar. 
+
+            p A continuación, puedes ver un ejemplo de cómo redactar o colocar la información de las referencias personales y familiares en una hoja de vida:          
           .col-md-6.bgr.p-5.position-relative
             img.clip(src='@/assets/curso/tema1/t1-2.svg', alt='imagen 1-2')
-            h3 Perfil profesional 
-            p Me considero una persona responsable creativa, con iniciativa y puntualidad, asumo con agrado los retos y metas que su organi
+            h3 Referencias Personal o Familiar 
+            p Nombre completo de la persona
+            p Ocupación: a que se dedica la persona
+            p Teléfono de contacto: teléfono de la persona  
+            br
+            p Pedro Antonio Fernández Martínez 
+            p Instructor - Servicio Nacional de Aprendizaje SENA
+            p Teléfono de contacto: 3002222222  
+
     
     h3 Tipos de Hojas de vida
 
@@ -157,7 +180,7 @@
           .tarjeta-flip__contenedor
             .tarjeta-flip__img.bgr_2.align-items-center
               figure.justify-center
-                img.img250(src='@/assets/curso/tema1/t1-5.svg', alt='imagen 1-2')
+                img.img250.p-2(src='@/assets/curso/tema1/t1-5.svg', alt='imagen 1-2')
             .tarjeta-flip__contenido.bgr_3.p-4.p-xl-5
               h3.text-center El currículum combinado o mixto
               p.text-center.mt-5 Es el currículum perfecto para toda clase de candidato, este permite plasmar la información laboral de acuerdo a las fortalezas del candidato. Por ejemplo, si el candidato tiene mucha experiencia podrá plasmarla de manera cronológica, y, por otra parte, si cuenta con otras series de habilidades, también podrá incluirlas en el currículo.
@@ -167,47 +190,47 @@
     TabsB.color-acento-botones.mb-5(data-aos="zoom-in-up")
       .py-4.py-md-5.text-black(titulo="La Hoja de Vida Minerva 1003 azul").p-2
         .row.justify-center
-          .col-md-6.mb-4.mb-md-0.p-5
+          .col-md-6.mb-0.mb-md-0.p-3.p-md-5.p-lg-5
             h4 La Hoja de Vida Minerva 1003 azul
             p Este es un formato que es fácil de rellenar. Los campos son claros y puntuales respecto a la información que se debe ingresar. Este puede ser usado para cualquier sector de empleo. Para conocer y poder utilizar este formato, puede dar clic en el siguiente enlace donde encontrar el formato para poder diligenciar: 
-            a.anexo.mb-4.mb-lg-0(href="https://drive.google.com/drive/folders/1HGhjztM34IOItp_LHZvxwHSd0H1jrIjy?usp=sharing" target="_blank")
+            a.anexo.mb-lg-0(href="https://drive.google.com/drive/folders/1HGhjztM34IOItp_LHZvxwHSd0H1jrIjy?usp=sharing" target="_blank")
               .anexo__icono
                 img(src="@/assets/template/icono-link.svg")
               .anexo__texto
                 p Enlace web.
 
-          .col-md-6.p-5.align-items-center
+          .col-md-6.align-items-center
             figure.justify-center
-              img(src='@/assets/curso/tema1/t1-6.svg', alt='imagen 1-6')
+              img.img350(src='@/assets/curso/tema1/t1-6.svg', alt='imagen 1-6')
 
       .py-4.py-md-5.text-black(titulo="Formato único de hoja de vida").p-2
         .row.justify-center
-          .col-md-6.mb-4.mb-md-0.p-5
+          .col-md-6.mb-0.mb-md-0.p-3.p-md-5.p-lg-5
             h4 Formato único de hoja de vida
             p Es un documento técnico oficial del Estado Colombiano, este permite exponer de manera estandarizada datos acerca de las habilidades y competencias de una persona que pretende prestar servicios a entidades y organismos del sector público. Para conocer y poder utilizar este formato, puede dar clic en el siguiente enlace donde encontrar el formato para poder diligenciar:   
-            a.anexo.mb-4.mb-lg-0(href="https://drive.google.com/drive/folders/1HGhjztM34IOItp_LHZvxwHSd0H1jrIjy?usp=sharing" target="_blank")
+            a.anexo.mb-lg-0(href="https://drive.google.com/drive/folders/1HGhjztM34IOItp_LHZvxwHSd0H1jrIjy?usp=sharing" target="_blank")
               .anexo__icono
                 img(src="@/assets/template/icono-link.svg")
               .anexo__texto
                 p Enlace web.
 
-          .col-md-6.p-5.align-items-center
+          .col-md-6.align-items-center
             figure.justify-center
-              img(src='@/assets/curso/tema1/t1-7.svg', alt='imagen 1-7')      
+              img.img350(src='@/assets/curso/tema1/t1-7.svg', alt='imagen 1-7')      
       .py-4.py-md-5.text-black(titulo="Hoja de vida libre").p-2
         .row.justify-center
-          .col-md-6.mb-4.mb-md-0.p-5
+          .col-md-6.mb-0.mb-md-0.p-3.p-md-5.p-lg-5
             h4 Hoja de vida libre
             p Es una hoja de vida que se realiza de manera creativa y permite adicionar información para mostrar las potencialidades de la persona. Para conocer y poder utilizar este formato, puede dar clic en el siguiente enlace donde encontrar el formato para poder diligenciar:   
-            a.anexo.mb-4.mb-lg-0(href="https://drive.google.com/drive/folders/1HGhjztM34IOItp_LHZvxwHSd0H1jrIjy?usp=sharing" target="_blank")
+            a.anexo.mb-lg-0(href="https://drive.google.com/drive/folders/1HGhjztM34IOItp_LHZvxwHSd0H1jrIjy?usp=sharing" target="_blank")
               .anexo__icono
                 img(src="@/assets/template/icono-link.svg")
               .anexo__texto
                 p Enlace web.
 
-          .col-md-6.p-5.align-items-center
+          .col-md-6.align-items-center
             figure.justify-center
-              img(src='@/assets/curso/tema1/t1-8.svg', alt='imagen 1-8')
+              img.img350(src='@/assets/curso/tema1/t1-8.svg', alt='imagen 1-8')
 
     p.mb-5 Por otra parte, es importante mencionar que a veces se cometen algunos errores al momento de hacer una hoja de vida y que se deben evitar, entre estos se encuentran los siguientes:
 
@@ -220,10 +243,10 @@
             img.img160(src='@/assets/curso/tema1/t1-9.svg', alt='img 1-9')
             
       .row
-        .col-md-6(data-aos="fade-right")
+        .col-md-6.mb-4.mb-md-0(data-aos="fade-right")
           figure.justify-center
             img.img160(src='@/assets/curso/tema1/t1-10.svg', alt='img 1-10')
-        .col-md-6.mb-4.mb-md-0
+        .col-md-6
           p Se debe incluir una dirección de correo electrónico profesional. A veces se colocan direcciones poco profesionales como: florecita_rokera69@hotmail.co; es mejor un correo más formal como: pedro.perez@hotmail.com.
 
       .row
@@ -234,10 +257,10 @@
             img.img160(src='@/assets/curso/tema1/t1-11.svg', alt='img 1-11') 
 
       .row
-        .col-md-6(data-aos="fade-right")
+        .col-md-6.mb-4.mb-md-0(data-aos="fade-right")
           figure.justify-center
             img.img160(src='@/assets/curso/tema1/t1-12.svg', alt='img 1-12')
-        .col-md-6.mb-4.mb-md-0.align-items-center
+        .col-md-6.align-items-center
           p Incluir documentación que no haya sido solicitada previamente por los reclutadores, como las referencias personales o el expediente académico. 
       
       .row
@@ -248,10 +271,10 @@
             img.img160(src='@/assets/curso/tema1/t1-13.svg', alt='img 1-13')
 
       .row
-        .col-md-6(data-aos="fade-right")
+        .col-md-6.mb-4.mb-md-0(data-aos="fade-right")
           figure.justify-center
             img.img160(src='@/assets/curso/tema1/t1-14.svg', alt='img 1-14')
-        .col-md-6.mb-4.mb-md-0.align-items-center
+        .col-md-6.align-items-center
           p No explicar con tanto detalle las razones del desempleo o del fin de un contrato. Si su hoja de vida despierta algún interés en el reclutador, más adelante en una entrevista le preguntará.   
 
       .row
@@ -262,10 +285,10 @@
             img.img160(src='@/assets/curso/tema1/t1-15.svg', alt='img 1-15')
             
       .row
-        .col-md-6(data-aos="fade-right")
+        .col-md-6.mb-4.mb-md-0(data-aos="fade-right")
           figure.justify-center
             img.img130(src='@/assets/curso/tema1/t1-16.svg', alt='img 1-16')
-        .col-md-6.mb-4.mb-md-0.align-items-center
+        .col-md-6.align-items-center
           p Usar fotografías inadecuadas o poco profesionales. Recuerden que la primera impresión es importante en un proceso de selección de personal.
 
       .row
@@ -276,10 +299,10 @@
             img.img160(src='@/assets/curso/tema1/t1-17.svg', alt='img 1-17') 
 
       .row
-        .col-md-6(data-aos="fade-right")
+        .col-md-6.mb-4.mb-md-0(data-aos="fade-right")
           figure.justify-center
             img.img160(src='@/assets/curso/tema1/t1-18.svg', alt='img 1-18')
-        .col-md-6.mb-4.mb-md-0.align-items-center
+        .col-md-6.align-items-center
           p Indicar todos los seminarios o cursos a los que has asistido. El espacio de la hoja de vida es muy restringido, se debe seleccionar e indicar sólo los más significativos o que se relacionen con el cargo. 
       
       .row
@@ -290,10 +313,10 @@
             img.img160(src='@/assets/curso/tema1/t1-19.svg', alt='img 1-19')
 
       .row
-        .col-md-6(data-aos="fade-right")
+        .col-md-6.mb-4.mb-md-0(data-aos="fade-right")
           figure.justify-center
             img.img160(src='@/assets/curso/tema1/t1-20.svg', alt='img 1-20')
-        .col-md-6.mb-4.mb-md-0.align-items-center
+        .col-md-6.align-items-center
           p Mentiras, medias verdades o exageraciones. Es importante "venderse" lo mejor posible, pero siempre con la verdad.        
       
 
