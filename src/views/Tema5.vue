@@ -71,7 +71,7 @@
                 img.img160(src='@/assets/curso/tema5/t5-9.svg', alt='img 5-9')
           .row(numero="9" titulo="Referencias bibliográficas").p-3
             .col-md-8.mb-4.mb-md-0.align-items-center
-              p Indicar aquellas fuentes que utilizo para hacer el texto. No se deben agregar referencias que no se visualicen y es muy importante el análisis de cada fuente a utilizar. 
+              p Indicar aquellas fuentes que utilizó para hacer el texto. No se deben agregar referencias que no se visualicen y es muy importante el análisis de cada fuente a utilizar. 
             .col-md-4
               figure.justify-center
                 img.img160(src='@/assets/curso/tema5/t5-10.svg', alt='img 5-10')

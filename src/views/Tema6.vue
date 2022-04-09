@@ -90,7 +90,7 @@
                 i.fas.fa-check.colr1
                 | Datos de candidatos (registro de candidatos), de cursos y actividades de entrenamiento (registro de entrenamiento), etc.
       
-    p.mb-5 El sistema de información de recursos humanos obtiene datos e información de los empleados, el ambiente empresarial, de tipo macroeconómico (económica, política, etc.) Este flujo de datos experimenta un trabajo de recolección, procesamiento y utilización.
+    p.mb-5 El sistema de información de recursos humanos obtiene datos e información de los empleados, el ambiente empresarial, de tipo macroeconómico (económica, política, etc.). Este flujo de datos experimenta un trabajo de recolección, procesamiento y utilización.
 
     .row.mb-2
       .col-12.col-md-7.col-lg-7.bgr_14.p-3.p-md-4.p-lg-4.mb-4
@@ -365,7 +365,8 @@
                   | Formar el equipo. 
                 li 
                   i.fas.fa-check.colr1
-                  | Tecnología (elegir e instalar el <em>software</em>).   
+                  span Tecnología (elegir e instalar el 
+                    | #[em software]).   
                 li 
                   i.fas.fa-check.colr1
                   | Difundir el servicio. 

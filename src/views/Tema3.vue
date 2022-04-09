@@ -19,7 +19,7 @@
               img.puntos(src='@/assets/curso/tema3/t3-1.svg', alt='img 3-1')
           div.position-relative(titulo="La fotografía")
             div.p-4
-              p.m-0 La imagen de la persona aporta información sobre ella y humaniza toda su hoja de vida. Esta permite además de servir como herramienta de reconocimiento, también, percibir valores relacionados y una buena impresión de la persona. Las proporciones de la fotografía es importante, la iluminación, que el rostro ocupe más del 50% de la imagen, también es importante la vestimenta y la actitud de la persona. Aquí, no se admiten fotos no profesionales, como: selfies o que estén fuera de un contexto laboral y profesional.
+              p.m-0 La imagen de la persona aporta información sobre ella y humaniza toda su hoja de vida. Esta permite además de servir como herramienta de reconocimiento, también, percibir valores relacionados y una buena impresión de la persona. Las proporciones de la fotografía son importantes, la iluminación, que el rostro ocupe más del 50% de la imagen, también es importante la vestimenta y la actitud de la persona. Aquí, no se admiten fotos no profesionales, como: selfies o que estén fuera de un contexto laboral y profesional.
               img.puntos(src='@/assets/curso/tema3/t3-1.svg', alt='img 3-1')
           div.position-relative(titulo="Experiencia")
             div.p-4

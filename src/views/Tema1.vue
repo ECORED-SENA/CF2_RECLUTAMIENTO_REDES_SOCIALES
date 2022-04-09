@@ -69,7 +69,7 @@
             p Formación académica: títulos de colegio, técnicos, pregrado, posgrado, entre otros.
             p Formación complementaria: seminarios, talleres, dominio de otros idiomas, entre otros.
             p Se puede escribir de la siguiente manera: institución educativa, título obtenido, ciudad y fecha finalizada. En caso de no haber terminado, el estado actual del estudio
-            p continuación, puedes ver un ejemplo de cómo redactar la formación académica en una hoja de vida:          
+            p A continuación, puedes ver un ejemplo de cómo redactar la formación académica en una hoja de vida:          
           .col-md-6.bgr.p-3.position-relative
             img.clip(src='@/assets/curso/tema1/t1-2.svg', alt='imagen 1-2') 
             .row.m-2
@@ -192,12 +192,12 @@
         .row.justify-center
           .col-md-6.mb-0.mb-md-0.p-3.p-md-5.p-lg-5
             h4 La Hoja de Vida Minerva 1003 azul
-            p Este es un formato que es fácil de rellenar. Los campos son claros y puntuales respecto a la información que se debe ingresar. Este puede ser usado para cualquier sector de empleo. Para conocer y poder utilizar este formato, puede dar clic en el siguiente enlace donde encontrar el formato para poder diligenciar: 
-            a.anexo.mb-lg-0(href="https://drive.google.com/drive/folders/1HGhjztM34IOItp_LHZvxwHSd0H1jrIjy?usp=sharing" target="_blank")
+            p Este es un formato que es fácil de rellenar. Los campos son claros y puntuales respecto a la información que se debe ingresar. Este puede ser usado para cualquier sector de empleo. Para conocer y poder utilizar este formato, puede dar clic en el siguiente enlace donde encontrará el formato para poder diligenciar: 
+            a.anexo.mb-lg-0(href="/downloads/form-hv-persona-natural.docx")
               .anexo__icono
-                img(src="@/assets/template/icono-link.svg")
+                img(src="@/assets/template/icono-doc.svg")
               .anexo__texto
-                p Enlace web.
+                p Anexo. Hoja de vida persona natural
 
           .col-md-6.align-items-center
             figure.justify-center
@@ -207,12 +207,12 @@
         .row.justify-center
           .col-md-6.mb-0.mb-md-0.p-3.p-md-5.p-lg-5
             h4 Formato único de hoja de vida
-            p Es un documento técnico oficial del Estado Colombiano, este permite exponer de manera estandarizada datos acerca de las habilidades y competencias de una persona que pretende prestar servicios a entidades y organismos del sector público. Para conocer y poder utilizar este formato, puede dar clic en el siguiente enlace donde encontrar el formato para poder diligenciar:   
-            a.anexo.mb-lg-0(href="https://drive.google.com/drive/folders/1HGhjztM34IOItp_LHZvxwHSd0H1jrIjy?usp=sharing" target="_blank")
+            p Es un documento técnico oficial del Estado Colombiano, este permite exponer de manera estandarizada datos acerca de las habilidades y competencias de una persona que pretende prestar servicios a entidades y organismos del sector público. Para conocer y poder utilizar este formato, puede dar clic en el siguiente enlace donde encontrará el formato para poder diligenciar:   
+            a.anexo.mb-lg-0(href="/downloads/form-hv-1003.docx" target="_blank")
               .anexo__icono
-                img(src="@/assets/template/icono-link.svg")
+                img(src="@/assets/template/icono-doc.svg")
               .anexo__texto
-                p Enlace web.
+                p Anexo. Hoja de vida minerva 1003 azul
 
           .col-md-6.align-items-center
             figure.justify-center
@@ -221,12 +221,12 @@
         .row.justify-center
           .col-md-6.mb-0.mb-md-0.p-3.p-md-5.p-lg-5
             h4 Hoja de vida libre
-            p Es una hoja de vida que se realiza de manera creativa y permite adicionar información para mostrar las potencialidades de la persona. Para conocer y poder utilizar este formato, puede dar clic en el siguiente enlace donde encontrar el formato para poder diligenciar:   
-            a.anexo.mb-lg-0(href="https://drive.google.com/drive/folders/1HGhjztM34IOItp_LHZvxwHSd0H1jrIjy?usp=sharing" target="_blank")
+            p Es una hoja de vida que se realiza de manera creativa y permite adicionar información para mostrar las potencialidades de la persona. Para conocer y poder utilizar este formato, puede dar clic en el siguiente enlace donde encontrará el formato para poder diligenciar:   
+            a.anexo.mb-lg-0(href="/downloads/hv-libre.docx" target="_blank")
               .anexo__icono
-                img(src="@/assets/template/icono-link.svg")
+                img(src="@/assets/template/icono-doc.svg")
               .anexo__texto
-                p Enlace web.
+                p Anexo. Hoja de vida libre 
 
           .col-md-6.align-items-center
             figure.justify-center

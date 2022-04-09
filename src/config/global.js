@@ -3,7 +3,7 @@ export default {
     componenteFormativo:
       'Fuentes de información y evaluación para selección del personal.',
     descripcionCurso:
-      'Los contenidos propuestos en este componente de formación, permitirán, en primer lugar, validar las fuentes para la recolección de información de los candidatos según los lineamientos de la organización, y en segundo lugar, se estudiara como evaluar al candidato según los términos de la convocatoria.',
+      'Los contenidos propuestos en este componente formativo, permitirán, en primer lugar, validar las fuentes para la recolección de información de los candidatos según los lineamientos de la organización, y en segundo lugar, se estudiara como evaluar al candidato según los términos de la convocatoria.',
     imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.svg'),
   },
