@@ -193,22 +193,7 @@
           .col-md-6.mb-0.mb-md-0.p-3.p-md-5.p-lg-5
             h4 La Hoja de Vida Minerva 1003 azul
             p Este es un formato que es fácil de rellenar. Los campos son claros y puntuales respecto a la información que se debe ingresar. Este puede ser usado para cualquier sector de empleo. Para conocer y poder utilizar este formato, puede dar clic en el siguiente enlace donde encontrará el formato para poder diligenciar: 
-            a.anexo.mb-lg-0(href="/downloads/form-hv-persona-natural.docx")
-              .anexo__icono
-                img(src="@/assets/template/icono-doc.svg")
-              .anexo__texto
-                p Anexo. Hoja de vida persona natural
-
-          .col-md-6.align-items-center
-            figure.justify-center
-              img.img350(src='@/assets/curso/tema1/t1-6.svg', alt='imagen 1-6')
-
-      .py-4.py-md-5.text-black(titulo="Formato único de hoja de vida").p-2
-        .row.justify-center
-          .col-md-6.mb-0.mb-md-0.p-3.p-md-5.p-lg-5
-            h4 Formato único de hoja de vida
-            p Es un documento técnico oficial del Estado Colombiano, este permite exponer de manera estandarizada datos acerca de las habilidades y competencias de una persona que pretende prestar servicios a entidades y organismos del sector público. Para conocer y poder utilizar este formato, puede dar clic en el siguiente enlace donde encontrará el formato para poder diligenciar:   
-            a.anexo.mb-lg-0(href="/downloads/form-hv-1003.docx" target="_blank")
+            a.anexo.mb-lg-0(href="/downloads/form-hv-1003.docx")
               .anexo__icono
                 img(src="@/assets/template/icono-doc.svg")
               .anexo__texto
@@ -216,7 +201,22 @@
 
           .col-md-6.align-items-center
             figure.justify-center
-              img.img350(src='@/assets/curso/tema1/t1-7.svg', alt='imagen 1-7')      
+              img.img350(src='@/assets/curso/tema1/t1-7.svg', alt='imagen 1-6')
+
+      .py-4.py-md-5.text-black(titulo="Formato único de hoja de vida").p-2
+        .row.justify-center
+          .col-md-6.mb-0.mb-md-0.p-3.p-md-5.p-lg-5
+            h4 Formato único de hoja de vida
+            p Es un documento técnico oficial del Estado Colombiano, este permite exponer de manera estandarizada datos acerca de las habilidades y competencias de una persona que pretende prestar servicios a entidades y organismos del sector público. Para conocer y poder utilizar este formato, puede dar clic en el siguiente enlace donde encontrará el formato para poder diligenciar:   
+            a.anexo.mb-lg-0(href="/downloads/form-hv-persona-natural.docx" target="_blank")
+              .anexo__icono
+                img(src="@/assets/template/icono-doc.svg")
+              .anexo__texto
+                p Anexo. Hoja de vida persona natural
+
+          .col-md-6.align-items-center
+            figure.justify-center
+              img.img350(src='@/assets/curso/tema1/t1-6.svg', alt='imagen 1-7')      
       .py-4.py-md-5.text-black(titulo="Hoja de vida libre").p-2
         .row.justify-center
           .col-md-6.mb-0.mb-md-0.p-3.p-md-5.p-lg-5
