@@ -222,7 +222,7 @@
           .col-md-6.mb-0.mb-md-0.p-3.p-md-5.p-lg-5
             h4 Hoja de vida libre
             p Es una hoja de vida que se realiza de manera creativa y permite adicionar información para mostrar las potencialidades de la persona. Para conocer y poder utilizar este formato, puede dar clic en el siguiente enlace donde encontrará el formato para poder diligenciar:   
-            a.anexo.mb-lg-0(:href="obtenerLink('/downloads/hv-libre.docx')" target="_blank")
+            a.anexo.mb-lg-0(:href="obtenerLink('/downloads/form-hv-libre.docx')" target="_blank")
               .anexo__icono
                 img(src="@/assets/template/icono-doc.svg")
               .anexo__texto
