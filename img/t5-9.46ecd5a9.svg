@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="135.289" height="204.425" viewBox="0 0 135.289 204.425">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_48130" data-name="Rectángulo 48130" width="135.289" height="204.425" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectángulo_48129" data-name="Rectángulo 48129" width="108.673" height="7.911" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_159109" data-name="Grupo 159109" transform="translate(30.289 5)">
+    <g id="Grupo_159110" data-name="Grupo 159110" transform="translate(-30.289 -5)">
+      <g id="Grupo_159103" data-name="Grupo 159103">
+        <g id="Grupo_159102" data-name="Grupo 159102" clip-path="url(#clip-path)">
+          <g id="Grupo_159101" data-name="Grupo 159101" transform="translate(13.308 196.514)" opacity="0.4">
+            <g id="Grupo_159100" data-name="Grupo 159100">
+              <g id="Grupo_159099" data-name="Grupo 159099" clip-path="url(#clip-path-2)">
+                <rect id="Rectángulo_48128" data-name="Rectángulo 48128" width="108.672" height="7.911" transform="translate(0)" fill="#233f4e"/>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <rect id="Rectángulo_48131" data-name="Rectángulo 48131" width="135.289" height="152.135" transform="translate(0 44.379)" fill="#fff"/>
+      <rect id="Rectángulo_48132" data-name="Rectángulo 48132" width="33.988" height="33.988" transform="translate(11.978 56.131)" fill="#bc3d5d"/>
+      <rect id="Rectángulo_48133" data-name="Rectángulo 48133" width="69.388" height="3.409" transform="translate(55.151 75.445)" fill="#ffe6ee"/>
+      <rect id="Rectángulo_48134" data-name="Rectángulo 48134" width="69.388" height="3.409" transform="translate(55.151 80.963)" fill="#ffe6ee"/>
+      <rect id="Rectángulo_48135" data-name="Rectángulo 48135" width="34.694" height="3.409" transform="translate(55.151 86.481)" fill="#ffe6ee"/>
+      <rect id="Rectángulo_48136" data-name="Rectángulo 48136" width="112.561" height="40.743" transform="translate(11.978 99.938)" fill="#b9daef"/>
+      <g id="Grupo_159105" data-name="Grupo 159105">
+        <g id="Grupo_159104" data-name="Grupo 159104" clip-path="url(#clip-path)">
+          <path id="Trazado_226316" data-name="Trazado 226316" d="M47.883,320.364a11.752,11.752,0,1,1-3.442-8.307,11.717,11.717,0,0,1,3.442,8.307" transform="translate(-12.334 -156.137)" fill="#b9daef"/>
+          <path id="Trazado_226317" data-name="Trazado 226317" d="M59.918,320.364H48.166V308.615a11.752,11.752,0,0,1,11.752,11.749" transform="translate(-24.369 -156.137)" fill="#86b7d1"/>
+          <rect id="Rectángulo_48137" data-name="Rectángulo 48137" width="78.572" height="3.941" transform="translate(45.966 158.915)" fill="#ffd7e3"/>
+          <rect id="Rectángulo_48138" data-name="Rectángulo 48138" width="78.572" height="3.941" transform="translate(45.966 165.598)" fill="#ffd7e3"/>
+          <rect id="Rectángulo_48139" data-name="Rectángulo 48139" width="78.572" height="3.941" transform="translate(45.966 172.039)" fill="#ffd7e3"/>
+          <rect id="Rectángulo_48140" data-name="Rectángulo 48140" width="31.692" height="3.941" transform="translate(45.966 158.915)" fill="#bc3d5d"/>
+          <rect id="Rectángulo_48141" data-name="Rectángulo 48141" width="47.233" height="3.941" transform="translate(45.966 165.598)" fill="#bc3d5d"/>
+          <rect id="Rectángulo_48142" data-name="Rectángulo 48142" width="31.692" height="3.941" transform="translate(45.966 172.039)" fill="#bc3d5d"/>
+          <rect id="Rectángulo_48143" data-name="Rectángulo 48143" width="78.572" height="3.941" transform="translate(45.966 152.478)" fill="#ffd7e3"/>
+          <rect id="Rectángulo_48144" data-name="Rectángulo 48144" width="54.228" height="3.941" transform="translate(45.966 152.478)" fill="#bc3d5d"/>
+        </g>
+      </g>
+      <text id="CURRICULUM" transform="translate(55.545 61.18)" fill="#bc3d5d" font-size="7" font-family="Montserrat-Black, Montserrat" font-weight="800"><tspan x="0" y="0" letter-spacing="-0.009em">C</tspan><tspan y="0">URRI</tspan><tspan y="0" letter-spacing="-0.009em">C</tspan><tspan y="0">U</tspan><tspan y="0" letter-spacing="-0.004em">L</tspan><tspan y="0">UM</tspan></text>
+      <text id="VITAE" transform="translate(55.545 68.978)" fill="#bc3d5d" font-size="7" font-family="Montserrat-Black, Montserrat" font-weight="800"><tspan x="0" y="0" letter-spacing="-0.015em">V</tspan><tspan y="0">I</tspan><tspan y="0" letter-spacing="-0.034em">T</tspan><tspan y="0">AE</tspan></text>
+    </g>
+  </g>
+</svg>
